@@ -1,0 +1,339 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "agent_servers": {
+    "codex-acp": {
+      "type": "registry",
+    },
+    "claude-acp": {
+      "type": "registry",
+    },
+    "pi-acp": {
+      "type": "registry",
+    },
+  },
+  "cli_default_open_behavior": "new_window",
+  "project_panel": {
+    "dock": "left",
+  },
+  "outline_panel": {
+    "dock": "left",
+  },
+  "collaboration_panel": {
+    "dock": "left",
+  },
+  "git_panel": {
+    "dock": "left",
+  },
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)",
+  },
+  "disable_ai": true,
+  "edit_predictions": {
+    "mode": "subtle",
+    "provider": "zed",
+  },
+  "show_edit_predictions": true,
+  "use_system_window_tabs": true,
+  "ssh_connections": [
+    {
+      "host": "rci",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/alexei-server/Documents/team45"
+          ]
+        },
+        {
+          "paths": [
+            "/home/orangepi/tinygrad"
+          ]
+        },
+        {
+          "paths": [
+            "/mnt/personal/korcadav/flipper_training"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "dasenka",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "~/flipper_training"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "karel",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "~/flipper_training"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "zotac",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/zotac/can-tools"
+          ]
+        },
+        {
+          "paths": [
+            "~/bros"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "dgx07_ext",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "~/personal"
+          ]
+        },
+        {
+          "paths": [
+            "~/personal/flipper_training"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "orangepi",
+      "args": [],
+      "projects": []
+    },
+    {
+      "host": "david-pc",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/davidk/projects"
+          ]
+        },
+        {
+          "paths": [
+            "/home/davidk/projects/a3-armbenders"
+          ]
+        },
+        {
+          "paths": [
+            "/home/davidk/projects/bros"
+          ]
+        },
+        {
+          "paths": [
+            "/home/davidk/projects/hw2_robot_control_mdps"
+          ]
+        },
+        {
+          "paths": [
+            "/home/davidk/projects/team45"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "alexei",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/alexei-server/Documents"
+          ]
+        },
+        {
+          "paths": [
+            "/home/alexei-server/Documents/team45"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "rci4",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/korcadav/personal/NoCap-Test/./"
+          ]
+        },
+        {
+          "paths": [
+            "/home/korcadav/personal/video2vla/./"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "nanogpt-ec2",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/ubuntu/NoCap-Test/./"
+          ]
+        }
+      ]
+    }
+  ],
+  "vim_mode": false,
+  "agent": {
+    "dock": "right",
+    "inline_assistant_model": {
+      "provider": "copilot_chat",
+      "model": "claude-sonnet-4.6",
+    },
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gemini-3.1-pro-preview",
+    },
+  },
+  "ui_font_size": 13,
+  "buffer_font_size": 12,
+  "buffer_font_family": "JetBrains Mono",
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "GitHub Dark",
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 200,
+    },
+  },
+  "file_scan_exclusions": [
+    "**/.ruff_cache",
+    "**/.git",
+    "**/.svn",
+    "**/.hg",
+    "**/CVS",
+    "**/.DS_Store",
+    "**/Thumbs.db",
+    "**/.classpath",
+    "**/.settings",
+    "**/__pycache__",
+    "**/*.egg-info",
+    "**/.vscode",
+    "**/.idea",
+    "**/.venv",
+  ],
+  "restore_on_startup": "last_workspace",
+  "base_keymap": "VSCode",
+  "scrollbar": {
+    "axes": {
+      "horizontal": false,
+    },
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "indent_guides": {
+    "enabled": true,
+    "line_width": 1,
+    "active_line_width": 2,
+    "coloring": "indent_aware",
+  },
+  "inlay_hints": {
+    "enabled": true,
+  },
+  "soft_wrap": "editor_width",
+  "terminal": {
+    "font_family": "MesloLGS NF",
+    "font_size": 12,
+    "blinking": "on",
+    "copy_on_select": true,
+    "line_height": "comfortable",
+  },
+  // LSP settings
+  "lsp": {
+    "texlab": {
+      "settings": {
+        "texlab": {
+          "build": {
+            "onSave": true,
+            "forwardSearchAfter": true,
+          },
+          "forwardSearch": {
+            "executable": "/Applications/Skim.app/Contents/SharedSupport/displayline",
+            "args": ["-g", "-r", "%l", "%p", "%f"],
+          },
+        },
+      },
+    },
+    "tinymist": {
+      "settings": {
+        "outputPath": "$root/$name",
+      },
+    },
+    "ruff": {
+      "initialization_options": {
+        "settings": {
+          "lineLength": 180,
+          "lint": {
+            "preview": true,
+            "extendSelect": ["E", "F", "Q", "B", "S", "I"],
+          },
+        },
+      },
+    },
+    "ty": {
+      "binary": {
+        "arguments": ["server"],
+      },
+    },
+  },
+  // Language specific settings
+  "languages": {
+    "C++": {
+      "format_on_save": "on",
+    },
+    "Python": {
+      "language_servers": ["ty", "ruff"],
+      "format_on_save": "on",
+      "formatter": [
+        {
+          "code_action": "source.organizeImports.ruff",
+        },
+        {
+          "code_action": "source.fixAll.ruff",
+        },
+        {
+          "language_server": {
+            "name": "ruff",
+          },
+        },
+      ],
+    },
+  },
+  // Jupyter/REPL settings
+  "jupyter": {
+    "kernel_selections": {
+      "python": "venv",
+    },
+  },
+}
+
